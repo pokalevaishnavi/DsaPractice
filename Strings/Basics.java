@@ -25,5 +25,10 @@ public class Basics{
         //substring
         System.out.println(s1.substring(0,2));
 
+        String s = "A man, a plan, a canal: Panama";
+
+        s = s.replaceAll("[^a-zA-Z0-9]", "");
+        System.out.println(s);
+
     }
 }
